@@ -36,3 +36,35 @@ body{font-size:16px}
 .custom-system-copy>p{font-size:11px}.custom-system-examples span{font-size:8px}.custom-system-price small{font-size:8px}.custom-system-price>span{font-size:9px}.adjacent-package-title h4{font-size:16px}.adjacent-package-title .eyebrow{font-size:8px}.adjacent-price-list span,.adjacent-price-list strong{font-size:9px}.adjacent-package>p{font-size:9px}.adjacent-package>a{font-size:10px}.add-on-intro p{font-size:9px}.add-on-grid span,.add-on-grid strong{font-size:9px}.package-disclaimer{font-size:10px}
 @media(max-width:900px){.nav-links>a{font-size:12px}}
 @media(max-width:650px){.hero-lede{font-size:15px}.hero-note{font-size:12px}.hero-bottom{font-size:7px}.trust-inner>span{font-size:8px}.trust-inner div{font-size:10px}.section-heading>p{font-size:12px}.service-number{font-size:8px}.service-card h3{font-size:15px}.service-card p{font-size:11px}.support-banner small{font-size:8px}.support-banner strong{font-size:11px}.support-banner>a{font-size:0}.about-copy p{font-size:12px}.price-top p{font-size:10px}.price-card li{font-size:11px}.monthly-option strong{font-size:10px}.contact-copy p{font-size:12px}.contact-details small{font-size:8px}.contact-details strong{font-size:12px}.footer>span{font-size:8px}.back-top{font-size:8px}.solution-flow span{font-size:8px}.package-ribbon{font-size:7px}.custom-system-copy>p{font-size:11px}.adjacent-price-list span,.adjacent-price-list strong{font-size:9px}.add-on-grid span,.add-on-grid strong{font-size:9px}}
+
+/* Clearer, more legible contact and footer area. */
+.contact-details small{font-size:10px;line-height:1.4}
+.contact-details strong{font-size:15px}
+.footer{gap:20px;min-height:88px}
+.footer-brand{color:#fff;text-decoration:none;font-size:20px;font-weight:850;letter-spacing:.04em;white-space:nowrap}
+.footer-brand span{color:#6ab2ff}
+.footer>span,.back-top{font-size:12px;line-height:1.6;letter-spacing:0}
+.back-top{color:#d7e4f3;font-weight:700;white-space:nowrap}
+.nav-links>a{font-size:15px}
+@media(max-width:900px){.nav-links>a{font-size:14px}}
+@media(max-width:650px){.contact-details small{font-size:9px}.contact-details strong{font-size:14px}.footer{align-items:flex-start;gap:14px;padding-top:18px;padding-bottom:18px}.footer-brand{font-size:19px}.footer>span{font-size:11px;line-height:1.6}.back-top{font-size:11px}.nav-links>a{font-size:16px}}
+
+
+/* Readable body copy and clearly visible contact actions. */
+.hero-lede{font-size:20px}
+.section-heading>p,.service-card p,.about-copy p,.project-content p,.contact-copy p{font-size:17px;line-height:1.7}
+.service-number,.support-banner small,.project-kicker{font-size:11px}
+.support-banner strong{font-size:16px}
+.project-content>a,.project-content>a b,.pricing-note,.plan-link,.adjacent-package>a{font-size:14px}
+.price-card li,.custom-system-copy>p,.adjacent-package>p,.add-on-grid span,.add-on-grid strong{font-size:14px}
+.solution-flow span{font-size:12px}.package-audience{font-size:11px}.package-ribbon{font-size:10px}
+.package-index{font-size:14px;width:32px;height:32px}
+.software-package h3{font-size:24px}.software-package-head p{font-size:16px;line-height:1.55}
+.software-price{font-size:24px;white-space:normal;line-height:1.35}.software-price small{font-size:17px}
+.package-includes summary{font-size:18px}.package-includes li{font-size:17px;line-height:1.5}
+.package-cta{font-size:24px;line-height:1.25;gap:10px;color:#073b82;background:#edf5ff;border:2px solid #1769e8;border-radius:8px;padding:12px 14px;margin-top:20px;min-height:58px}
+.package-cta span{font-size:24px;flex:none}.package-cta:hover{color:#fff;background:#1769e8;box-shadow:0 8px 20px #1769e833}.package-cta:hover span{color:#fff}
+.contact-details>a,.contact-details>div{padding:20px 0}.contact-details strong{font-size:17px;color:#fff}
+.contact-details>a:hover strong,.project-content>a:hover,.adjacent-package>a:hover,.pricing-note a:hover{color:#76c9ff;text-decoration:underline;text-underline-offset:4px}
+.contact-details>a:focus-visible,.package-cta:focus-visible,.project-content>a:focus-visible,.adjacent-package>a:focus-visible,.pricing-note a:focus-visible,.plan-link:focus-visible{outline:3px solid #64d9f3;outline-offset:4px;border-radius:5px}
+@media(max-width:650px){.hero-lede{font-size:18px}.section-heading>p,.service-card p,.about-copy p,.project-content p,.contact-copy p{font-size:16px}.project-content>a,.project-content>a b,.pricing-note,.plan-link,.adjacent-package>a{font-size:14px}.price-card li,.custom-system-copy>p,.adjacent-package>p,.add-on-grid span,.add-on-grid strong{font-size:14px}.package-audience{font-size:10px}.package-ribbon{font-size:9px}.software-package-head p{font-size:16px}.software-price{font-size:24px}.package-includes summary{font-size:18px}.package-includes li{font-size:16px}.package-cta{font-size:20px}.package-cta span{font-size:20px}.contact-details strong{font-size:16px}}
